@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BasicCorePrograms
+namespace BasicCoreProgram
 {
    public  class PrimeFactorization
     {
