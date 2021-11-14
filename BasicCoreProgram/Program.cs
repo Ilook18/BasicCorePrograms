@@ -46,6 +46,10 @@ namespace BasicCoreProgram
                         od.EvenOdd();
                         break;
                     case 9:
+                        VowelOrConsonant letter = new VowelOrConsonant();
+                        letter.VowelConsonant();
+                        break;
+                    case 10:
                         flag = false;
                         break;
                 }
