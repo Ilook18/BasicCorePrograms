@@ -30,6 +30,10 @@ namespace BasicCorePrograms
                         sum.Harmonic();
                         break;
                     case 5:
+                        PrimeFactorization pf = new PrimeFactorization();
+                        pf.primeFactors();
+                        break;
+                    case 6:
                         flag = false;
                         break;
                 }
