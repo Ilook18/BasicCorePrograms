@@ -9,7 +9,7 @@ namespace BasicCoreProgram
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("Enter the Program number which is to be executed \n 1. Flip Coin \n 2. Leap Year \n 3. Power of Two \n 4. Harmonic Number \n 5. Factors \n 6. Quotient Remainder \n 7. SwapTwoNumers \n 8. Even Or Odd Number \n 9. Exit");
+                Console.WriteLine("Enter the Program number which is to be executed \n 1. Flip Coin \n 2. Leap Year \n 3. Power of Two \n 4. Harmonic Number \n 5. Factors \n 6. Quotient Remainder \n 7. SwapTwoNumers \n 8. Even Or Odd Number \n 9. Vowel or Consonent \n 10.Largest Number \n 11.Exit");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -42,14 +42,18 @@ namespace BasicCoreProgram
                         nos.Swapp();
                         break;
                     case 8:
-                        OddEven od = new OddEven();
-                        od.EvenOdd();
+                        OddEven num = new OddEven();
+                        num.EvenOdd();
                         break;
                     case 9:
                         VowelOrConsonant letter = new VowelOrConsonant();
                         letter.VowelConsonant();
                         break;
                     case 10:
+                        LargestNumber max = new LargestNumber();
+                        max.Largest();
+                        break;
+                    case 11:
                         flag = false;
                         break;
                 }
